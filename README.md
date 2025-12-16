@@ -53,23 +53,6 @@ The dataset is stored locally inside the `data/` directory.
 
 ---
 
-## Project Structure
-InsurancePricePredictionModel/
-│
-├── data/
-│ └── insurance.csv
-│
-├── Notebooks/
-│ └── eda_feature_engineering.ipynb
-│
-├── src/
-│ └── train_model.py
-│
-├── requirements.txt
-├── .gitignore
-└── README.md
-
----
 
 ## Technologies Used
 
@@ -83,52 +66,6 @@ InsurancePricePredictionModel/
 
 ---
 
-## How to Run the Project
-
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/shivamsingh-itds/Insurance_Price_Prediction_Model.git
-
-
----
-
-## Technologies Used
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Jupyter Notebook
-
----
-
-## How to Run the Project
-
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/shivamsingh-itds/Insurance_Price_Prediction_Model.git
-
----
-
-## Technologies Used
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Jupyter Notebook
-
----
-
-## How to Run the Project
-
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/shivamsingh-itds/Insurance_Price_Prediction_Model.git
 
 ## Key Learnings
 
