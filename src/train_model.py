@@ -24,6 +24,9 @@ from collections import OrderedDict
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder,MinMaxScaler
 
+# Importing os
+import os
+
 # Step 1 : Data Ingestion 
 def data_ingestion():
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
