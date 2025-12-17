@@ -26,8 +26,9 @@ from sklearn.preprocessing import LabelEncoder,MinMaxScaler
 
 # Step 1 : Data Ingestion 
 def data_ingestion():
-    return pd.read_csv(r'C:\15Days15Project\InsurancePricePredictionModel\Data\insurance.csv')
-
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    data_path = os.path.join(base_dir, "Data", "insurance.csv")
+    return pd.read_csv(data_path)
 
 # step 2 : Data Exploration
 # checking Descriptive stats
